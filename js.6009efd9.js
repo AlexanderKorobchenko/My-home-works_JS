@@ -9,4 +9,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"wt2I":[function(require,module,exports) {
 "use strict";var e=c(require("../js/menu.json")),t=c(require("../templates/card.hbs"));function c(e){return e&&e.__esModule?e:{default:e}}const o=document.querySelector("ul.js-menu");o.innerHTML=(0,t.default)(e.default);const d=document.querySelector("#theme-switch-toggle"),s={LIGHT:"light-theme",DARK:"dark-theme"};function a(e){e.target.checked&&(document.body.classList.replace(s.LIGHT,s.DARK),localStorage.setItem("checkBox","On")),e.target.checked||(document.body.classList.replace(s.DARK,s.LIGHT),localStorage.setItem("checkBox",""))}d.checked=Boolean(localStorage.getItem("checkBox")),d.checked&&document.body.classList.add(s.DARK),d.checked||document.body.classList.add(s.LIGHT),d.addEventListener("input",a);
 },{"../js/menu.json":"retb","../templates/card.hbs":"FrlU"}]},{},["wt2I"], null)
-//# sourceMappingURL=/works_JS/js.6009efd9.js.map
+//# sourceMappingURL=/my-home-works_JS/js.6009efd9.js.map
