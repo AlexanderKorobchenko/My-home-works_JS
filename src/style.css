@@ -1,0 +1,50 @@
+body {
+    background-color: lavenderblush;
+}
+
+.title {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list {
+ color: rgba(0, 0, 0, 0.7);
+}
+
+.list__item {
+    transition: color 170ms linear;
+}
+
+.list__item:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.list__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list__item:hover,
+.list__item:focus {
+    color: royalblue;
+}
+
+.back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    transition: color 170ms linear;
+}
+
+.back:hover,
+.back:focus {
+    color: royalblue;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color switch</title>
+  </head>
+
+  <body style="padding: 26px;background:#FFFFFF;">
+    <a style="color:rgb(87, 87, 87);font-size:34px;text-decoration:none;"
+       href="../index.html">&#x276E;</a>
+
+    <ul style="display:flex; justify-content:center; list-style:none;">
+      <li style="margin-right:24px;">  
+        <button 
+            id="start"
+            style="padding:10px 20px;border:solid 2px rgb(100, 100, 100);border-radius:4px;color:rgb(100, 100, 100);font-size:20px;cursor: pointer;"
+            type="button" 
+            data-action="start">
+              Start
+        </button>
+      </li>  
+      <li>
+        <button 
+            id="stop"
+            style="padding:10px 20px;border:solid 2px rgb(100, 100, 100);border-radius:4px;color:rgb(100, 100, 100);font-size:20px;cursor: pointer;"
+            type="button" 
+            data-action="stop">
+              Stop
+        </button>
+      </li>  
+    </ul>
+
+    <script src="./color-switch.js" type="module"></script> 
+  </body>
+
+</html>
