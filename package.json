@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://alexanderkorobchenko.github.io/works_JS/",
+  "homepage": "https://alexanderkorobchenko.github.io/my-home-works_JS/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /works_JS/"
+    "build": "parcel build src/*.html --public-url /my-home-works_JS/"
   },
   "repository": {
     "type": "git",
